@@ -1,0 +1,326 @@
+POST http://localhost:5000/upload/
+Application: json
+
+{"planName": "5"}
+
+<> 2020-07-19T043349.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{"planName": "5"}
+
+<> 2020-07-19T043313.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{"planName": "5","tempName": "1"}
+
+<> 2020-07-19T041457.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{"planName": "1","tempName": "5"}
+
+<> 2020-07-19T041431.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{"planName": "1","tempName": "1"}
+
+<> 2020-07-19T041310.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{"planName": "1","tempName": "1"}
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{"planName": "1","tempName": "1"}
+
+<> 2020-07-19T041100.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{'planName': '1', 'tempName': '1'}
+
+<> 2020-07-19T040938.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{'planName': '1', 'tempName': '1'}
+
+<> 2020-07-19T040937.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{'planName': '1', 'tempName': '1'}
+
+<> 2020-07-19T040935.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{'planName': '1', 'tempName': '1'}
+
+<> 2020-07-19T040830.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+Application: json
+
+{'planName': '1', 'tempName': '1'}
+
+<> 2020-07-19T040827.200.json
+
+###
+
+POST http://localhost:5000/delete/task/
+
+{'planName': '1', 'tempName': '1'}
+
+<> 2020-07-19T040621.200.json
+
+###
+
+GET http://localhost:5000/connTest/
+
+<> 2020-07-19T040220.200.json
+
+###
+
+POST http://localhost:5000/patrol/progress/
+
+<> 2020-07-19T104348.200.json
+
+###
+
+POST http://localhost:5000/patrol/progress/
+
+<> 2020-07-19T104336.200.json
+
+###
+
+POST http://localhost:5000/patrol/progress/
+
+<> 2020-07-19T104329.200.json
+
+###
+
+POST http://localhost:5000/patrol/progress/
+
+<> 2020-07-19T104219.200.json
+
+###
+
+POST http://localhost:5000/patrol/progress/
+
+<> 2020-07-19T104211.200.json
+
+###
+
+POST http://localhost:5000/patrol/progress/
+
+<> 2020-07-19T100241.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T092226.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+###
+
+POST http://localhost:5000/status/
+
+###
+
+POST http://localhost:5000/status/
+
+###
+
+POST http://localhost:5000/status/
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091917.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091747.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091723.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091718.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091340.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091239.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091238.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091236.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091233.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091214.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T091118.200.json
+
+###
+
+POST http://localhost:5000/status/
+
+<> 2020-07-19T090435.200.json
+
+###
+
+POST http://localhost:5000/patrol/progress/
+
+<> 2020-07-19T090407.200.json
+
+###
+
+POST http://localhost/patrol/progress/
+
+<> 2020-07-19T090344.404.html
+
+###
+
+POST https://172.16.2.121:443/patrol/progress/
+
+###
+
+POST https://172.16.2.121:443/patrol/progress/
+
+<> 2020-07-18T010805.200.json
+
+###
+
+POST https://172.16.2.121:443/patrol/progress/
+
+<> 2020-07-18T010719.200.json
+
+###
+
+GET https://172.16.2.121:443/patrol/progress/
+
+<> 2020-07-18T121917.200.json
+
+###
+
+GET https://172.16.2.121:443/status/
+
+<> 2020-07-18T120057.200.json
+
+###
+
+GET https://172.16.2.121:443/control/2
+
+<> 2020-07-18T115927.200.json
+
+###
+
+GET https://172.16.2.121:443/control/-1
+
+<> 2020-07-18T115922.200.json
+
+###
+
+GET https://172.16.2.121:443/control/2
+
+<> 2020-07-18T115916.200.json
+
+###
+
+GET https://172.16.2.121:443/control/1
+
+<> 2020-07-18T115908.200.json
+
+###
+
+GET https://172.16.2.121:443/control/0
+
+<> 2020-07-18T115727.200.json
+
+###
+
+GET https://172.16.2.121:443/control/0/
+
+<> 2020-07-18T115721.404.json
+
+###
+

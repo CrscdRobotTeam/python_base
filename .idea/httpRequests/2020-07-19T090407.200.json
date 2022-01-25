@@ -1,0 +1,15 @@
+{
+  "checktype": 1,
+  "humidity": 0.0,
+  "patrolName": "3BX-1",
+  "patrolPlanID": 4,
+  "patrolRead": -252.0,
+  "patrolResult": 1,
+  "patrolShow": "识别异常",
+  "patrolThresholdDw": 0.0,
+  "patrolThresholdUp": 0.0,
+  "patrolTime": "Sat, 16 Feb 2019 11:25:31 GMT",
+  "saveDataPath": "D:/巡检机器人系统/save/电力变压器/3BX/3BX-1/20190216112521.jpg",
+  "stationID": 1051,
+  "temperature": 0.0
+}

@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f164d0d9-2a3b-4a03-b6a7-6ee27281f9ce" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PyProject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Flask Main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c9b7LL2tniyyUeWpm31I7X5Toq" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jiekou" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PyProject\07并发编程\多线程并发套接字" />
+      <recent name="E:\Qt巡检机器人\Net_Comm\templates" />
+      <recent name="E:\pyflask\templates" />
+      <recent name="E:\PyProject\07并发编程\互斥锁与join的区别" />
+      <recent name="E:\PyProject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pyflask\jinja2模块" />
+      <recent name="E:\pyflask\url和视图" />
+      <recent name="E:\PyProject\11协程\协程基础" />
+      <recent name="E:\PyProject\08多线程\线程基本知识" />
+      <recent name="E:\PyProject\08多线程\互斥锁" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Application" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;5&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/delete/task/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Application" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;5&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/delete/task/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Application" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;5&quot;,&quot;tempName&quot;: &quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/delete/task/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Application" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;1&quot;,&quot;tempName&quot;: &quot;5&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/delete/task/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Application" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;1&quot;,&quot;tempName&quot;: &quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/delete/task/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Application" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{'planName': '1', 'tempName': '1'}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/delete/task/" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{'planName': '1', 'tempName': '1'}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/connTest/" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/patrol/progress/" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/status/" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/patrol/progress/" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/patrol/progress/" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/patrol/progress/" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/status/" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/control/2" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/control/-1" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/control/1" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/control/0" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/control/0/" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/upload/update/" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://172.16.2.121:443" />
+          <option name="urlPath" value="/upload/update/" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="application" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;测试一&quot;, &quot;planStartDate&quot;: &quot;2020-07-03&quot;, &quot;planTime&quot;: &quot;10:00:00&quot;,&quot;planEndDate&quot;:&quot;2020-07-03&quot;,&quot;RepType&quot;: 1, &quot;RepTime&quot;: 1, &quot;planStart&quot;: 1, &quot;planStatus&quot;: 0, &quot;device&quot;: {&quot;name&quot;: &quot;测试模板&quot;, &quot;pathlist&quot;: [{&quot;name&quot;: &quot;电力变压器&quot;, &quot;subClassName&quot;: &quot;3BX&quot;, &quot;pointName&quot;: &quot;3Bx1&quot;},{&quot;name&quot;: &quot;牵引变压器&quot;, &quot;subClassName&quot;: &quot;1BX&quot;, &quot;pointName&quot;: &quot;45&quot;}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="application" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{'planName': '测试一', 'planStartDate': '2020-07-03', 'planTime': '10:00:00', 'planEndDate': '2020-07-03', 'RepType': 1, 'RepTime': 1, 'planStart': 1, 'planStatus': 0, 'device': {'name': '测试模板', 'pathlist': [{'name': '电力变压器', 'subClassName': '3BX', 'pointName': '3Bx1'},{'name': '牵引变压器', 'subClassName': '1BX', 'pointName': '45'}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{'planName': '测试一', 'planStartDate': '2020-07-03', 'planTime': '10:00:00', 'planEndDate': '2020-07-03', 'RepType': 1, 'RepTime': 1, 'planStart': 1, 'planStatus': 0, 'device': {'name': '测试模板', 'pathlist': [{'name': '电力变压器', 'subClassName': '3BX', 'pointName': '3Bx1'},{'name': '牵引变压器', 'subClassName': '1BX', 'pointName': '45'}]}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:5000/patrol/progress" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/patrol/progress/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;第15次测试&quot;, &quot;taskTemp&quot;:17}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/patrol/progress" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/patrol/progress" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:443" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;第15次测试&quot;, &quot;taskTemp&quot;:17}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;第15次测试&quot;, &quot;taskTemp&quot;:17}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&quot;planName&quot;: &quot;第15次测试&quot;, &quot;taskTemp&quot;:17" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="Application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;第15次测试&quot;, &quot;taskTemp&quot;:17}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;planName&quot;: &quot;第15次测试&quot;, &quot;taskTemp&quot;:17}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{'planName': '第15次测试', 'taskTemp': 17, 'planStartDate': '2020-06-22', 'planTime': '23:10:20', 'planEndTime': '23:28:20', 'planEndDate': '2020-06-20', 'RepType': 0, 'RepTime': 0, 'planStart': 1, 'planStatus': 0}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{'planName': '第15次测试', 'taskTemp': 17, 'planStartDate': '2020-06-22', 'planTime': '23:10:20', #         'planEndTime': '23:28:20', 'planEndDate': '2020-06-20', 'RepType': 0, 'RepTime': 0, 'planStart': 1, #         'planStatus': 0}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="planName" />
+                <option name="value" value="第15次测试" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="taskTemp" />
+                <option name="value" value="17" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="planStartDate" />
+                <option name="value" value="2020-06-22" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/upload/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="data" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Client">
+    <configuration name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07并发编程/多线程并发套接字" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07并发编程/多线程并发套接字/Client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Client1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07并发编程/多线程并发套接字" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07并发编程/多线程并发套接字/Client1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JoinableQueue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07并发编程/队列" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07并发编程/队列/JoinableQueue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07并发编程/多线程并发套接字" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07并发编程/多线程并发套接字/Server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="broswer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10浏览器模拟" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10浏览器模拟/broswer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql_study" type="PythonConfigurationType" factoryName="Python">
+      <module name="PyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14MySQL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14MySQL/mysql_study.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.mysql_study" />
+      <item itemvalue="Python.JoinableQueue" />
+      <item itemvalue="Python.broswer" />
+      <item itemvalue="Python.Server" />
+      <item itemvalue="Python.Client" />
+      <item itemvalue="Python.Client1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Client" />
+        <item itemvalue="Python.Server" />
+        <item itemvalue="Python.Client1" />
+        <item itemvalue="Python.broswer" />
+        <item itemvalue="Python.JoinableQueue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f164d0d9-2a3b-4a03-b6a7-6ee27281f9ce" name="Default Changelist" comment="" />
+      <created>1589943587527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589943587527</updated>
+      <workItem from="1589943590186" duration="1013000" />
+      <workItem from="1589947598783" duration="14779000" />
+      <workItem from="1590023169830" duration="25131000" />
+      <workItem from="1590109871661" duration="19614000" />
+      <workItem from="1590139088802" duration="46000" />
+      <workItem from="1590369944153" duration="23598000" />
+      <workItem from="1590396598689" duration="717000" />
+      <workItem from="1590455228949" duration="20412000" />
+      <workItem from="1590542133351" duration="21884000" />
+      <workItem from="1590628267153" duration="17268000" />
+      <workItem from="1590713975235" duration="20147000" />
+      <workItem from="1590974225147" duration="13260000" />
+      <workItem from="1591167510214" duration="7144000" />
+      <workItem from="1591319440306" duration="21453000" />
+      <workItem from="1591604096837" duration="560000" />
+      <workItem from="1591666545857" duration="3545000" />
+      <workItem from="1591705172467" duration="458000" />
+      <workItem from="1591752650750" duration="2202000" />
+      <workItem from="1591759438229" duration="44494000" />
+      <workItem from="1592013151939" duration="42353000" />
+      <workItem from="1592137822084" duration="4201000" />
+      <workItem from="1592183503109" duration="1326000" />
+      <workItem from="1592205049385" duration="26009000" />
+      <workItem from="1592355821967" duration="5049000" />
+      <workItem from="1592445076875" duration="168000" />
+      <workItem from="1592445601436" duration="13113000" />
+      <workItem from="1592543558271" duration="25888000" />
+      <workItem from="1592788518844" duration="17670000" />
+      <workItem from="1592824656736" duration="6622000" />
+      <workItem from="1592831358713" duration="768000" />
+      <workItem from="1592832179071" duration="295000" />
+      <workItem from="1592833711511" duration="8569000" />
+      <workItem from="1592874232893" duration="11677000" />
+      <workItem from="1592888734891" duration="3117000" />
+      <workItem from="1592960861288" duration="9141000" />
+      <workItem from="1592979149859" duration="3006000" />
+      <workItem from="1593003816531" duration="6787000" />
+      <workItem from="1593046886186" duration="21132000" />
+      <workItem from="1593315320023" duration="8062000" />
+      <workItem from="1593392675820" duration="16685000" />
+      <workItem from="1593478276055" duration="15262000" />
+      <workItem from="1593563960895" duration="17143000" />
+      <workItem from="1593651794152" duration="16403000" />
+      <workItem from="1593674756208" duration="12288000" />
+      <workItem from="1593701865284" duration="1881000" />
+      <workItem from="1593738412109" duration="5731000" />
+      <workItem from="1593997882057" duration="8125000" />
+      <workItem from="1594024577082" duration="5729000" />
+      <workItem from="1594085146883" duration="29836000" />
+      <workItem from="1594171583445" duration="14743000" />
+      <workItem from="1594271736649" duration="667000" />
+      <workItem from="1594606763858" duration="2747000" />
+      <workItem from="1594693462973" duration="3836000" />
+      <workItem from="1594952325639" duration="7873000" />
+      <workItem from="1594961883794" duration="2850000" />
+      <workItem from="1595042112322" duration="6112000" />
+      <workItem from="1595087018266" duration="28622000" />
+      <workItem from="1638239128100" duration="22463000" />
+      <workItem from="1638430180178" duration="1487000" />
+      <workItem from="1638432298370" duration="1298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PyProject$product_consumer_module.coverage" NAME="product_consumer_module Coverage Results" MODIFIED="1590544203207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/队列" />
+    <SUITE FILE_PATH="coverage/PyProject$gil_Multy.coverage" NAME="gil_Multy Coverage Results" MODIFIED="1590560455506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09GIL解释器锁" />
+    <SUITE FILE_PATH="coverage/PyProject$struct_model.coverage" NAME="struct_model Coverage Results" MODIFIED="1638241859850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05解决粘包问题/简单版" />
+    <SUITE FILE_PATH="coverage/PyProject$02snatchtickets.coverage" NAME="02snatchtickets Coverage Results" MODIFIED="1590482021174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/互斥锁" />
+    <SUITE FILE_PATH="coverage/PyProject$study11_Example_2.coverage" NAME="study11_Example_2 Coverage Results" MODIFIED="1590115449522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/PyProject$JoinableQueue.coverage" NAME="JoinableQueue Coverage Results" MODIFIED="1638256846702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/队列" />
+    <SUITE FILE_PATH="coverage/PyProject$Dijkstra.coverage" NAME="Dijkstra Coverage Results" MODIFIED="1592972592819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Qt巡检机器人/Net_Comm" />
+    <SUITE FILE_PATH="coverage/PyProject$mutex_thread__1_.coverage" NAME="mutex_thread (1) Coverage Results" MODIFIED="1590555769448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程" />
+    <SUITE FILE_PATH="coverage/PyProject$app.coverage" NAME="app Coverage Results" MODIFIED="1592357541910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Qt巡检机器人/接口示例/robotserver" />
+    <SUITE FILE_PATH="coverage/PyProject$Client__2_.coverage" NAME="Client (2) Coverage Results" MODIFIED="1590395007459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06文件传输/简单版" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_reverse_model_py_.coverage" NAME="Flask (../pyflask/reverse_model.py) Coverage Results" MODIFIED="1591174204129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$study02.coverage" NAME="study02 Coverage Results" MODIFIED="1590033260878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_template01_py_.coverage" NAME="Flask (../pyflask/template01.py) Coverage Results" MODIFIED="1591329269040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$client.coverage" NAME="client Coverage Results" MODIFIED="1592458342662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Qt巡检机器人/Net_Comm" />
+    <SUITE FILE_PATH="coverage/PyProject$.coverage" NAME="命令 Coverage Results" MODIFIED="1638243148955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03模拟ssh远程执行命令" />
+    <SUITE FILE_PATH="coverage/PyProject$robot_status.coverage" NAME="robot_status Coverage Results" MODIFIED="1592014988222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Qt巡检机器人/接口示例/robotserver" />
+    <SUITE FILE_PATH="coverage/PyProject$Client_0.coverage" NAME="Client_0 Coverage Results" MODIFIED="1591843274260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02多客户端套接字通讯" />
+    <SUITE FILE_PATH="coverage/PyProject$03processotherproperty.coverage" NAME="03processotherproperty Coverage Results" MODIFIED="1590472503773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/开启子进程" />
+    <SUITE FILE_PATH="coverage/PyProject$study01_Example_2.coverage" NAME="study01_Example_2 Coverage Results" MODIFIED="1590030038828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_for_statement_py_.coverage" NAME="Flask (../pyflask/jinja2模块/for_statement.py) Coverage Results" MODIFIED="1591338984961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$tornadomod.coverage" NAME="tornadomod Coverage Results" MODIFIED="1595090233919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Qt巡检机器人/Net_Comm" />
+    <SUITE FILE_PATH="coverage/PyProject$01startprocess.coverage" NAME="01startprocess Coverage Results" MODIFIED="1590463762653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/开启子进程" />
+    <SUITE FILE_PATH="coverage/PyProject$queue.coverage" NAME="queue Coverage Results" MODIFIED="1590483793428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/队列" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_debug_model_py_.coverage" NAME="Flask (../pyflask/debug_model.py) Coverage Results" MODIFIED="1591171019592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$different_thread_process.coverage" NAME="different_thread_process Coverage Results" MODIFIED="1590549420477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程" />
+    <SUITE FILE_PATH="coverage/PyProject$sasd.coverage" NAME="sasd Coverage Results" MODIFIED="1591170720298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pyflask" />
+    <SUITE FILE_PATH="coverage/PyProject$Client_1.coverage" NAME="Client_1 Coverage Results" MODIFIED="1591843277996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02多客户端套接字通讯" />
+    <SUITE FILE_PATH="coverage/PyProject$Server__1_.coverage" NAME="Server (1) Coverage Results" MODIFIED="1638254001407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06文件传输/简单版" />
+    <SUITE FILE_PATH="coverage/PyProject$deadlock_mutexlock.coverage" NAME="deadlock_mutexlock Coverage Results" MODIFIED="1590562765860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程/死锁与互斥锁" />
+    <SUITE FILE_PATH="coverage/PyProject$study11.coverage" NAME="study11 Coverage Results" MODIFIED="1590115446755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/PyProject$timer_timer.coverage" NAME="timer_timer Coverage Results" MODIFIED="1590569198185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程/定时器" />
+    <SUITE FILE_PATH="coverage/PyProject$study05.coverage" NAME="study05 Coverage Results" MODIFIED="1590042932628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$study11_Example_3.coverage" NAME="study11_Example_3 Coverage Results" MODIFIED="1590117176603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/PyProject$study02_Example_2.coverage" NAME="study02_Example_2 Coverage Results" MODIFIED="1590035773069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_debug_model_py___1_.coverage" NAME="Flask (../pyflask/debug_model.py) (1) Coverage Results" MODIFIED="1591174417958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$study01_Example.coverage" NAME="study01_Example Coverage Results" MODIFIED="1590025788971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$study12.coverage" NAME="study12 Coverage Results" MODIFIED="1590118527099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/PyProject$Server.coverage" NAME="Server Coverage Results" MODIFIED="1638430343236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/多线程并发套接字" />
+    <SUITE FILE_PATH="coverage/PyProject$study06.coverage" NAME="study06 Coverage Results" MODIFIED="1590044521915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$01processindependence.coverage" NAME="01processindependence Coverage Results" MODIFIED="1590473212300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/进程管理" />
+    <SUITE FILE_PATH="coverage/PyProject$text.coverage" NAME="text Coverage Results" MODIFIED="1592883922968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Qt巡检机器人/Net_Comm" />
+    <SUITE FILE_PATH="coverage/PyProject$oltp.coverage" NAME="oltp Coverage Results" MODIFIED="1593070864894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Qt巡检机器人/Net_Comm" />
+    <SUITE FILE_PATH="coverage/PyProject$01mutex.coverage" NAME="01mutex Coverage Results" MODIFIED="1590479771675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/互斥锁" />
+    <SUITE FILE_PATH="coverage/PyProject$signal.coverage" NAME="signal Coverage Results" MODIFIED="1590565142788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程/信号量" />
+    <SUITE FILE_PATH="coverage/PyProject$Server__2_.coverage" NAME="Server (2) Coverage Results" MODIFIED="1591843268312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02多客户端套接字通讯" />
+    <SUITE FILE_PATH="coverage/PyProject$study10.coverage" NAME="study10 Coverage Results" MODIFIED="1590112287500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$study13.coverage" NAME="study13 Coverage Results" MODIFIED="1590120853514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/PyProject$mysql_study.coverage" NAME="mysql_study Coverage Results" MODIFIED="1594697063398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14MySQL" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_jinja2_extends_block_py_.coverage" NAME="Flask (../pyflask/jinja2模块/extends_block.py) Coverage Results" MODIFIED="1592446931971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$study04.coverage" NAME="study04 Coverage Results" MODIFIED="1590040718582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$pyflask.coverage" NAME="pyflask Coverage Results" MODIFIED="1591170238622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$study09_Example_1.coverage" NAME="study09_Example_1 Coverage Results" MODIFIED="1590112713216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/PyProject$study01.coverage" NAME="study01 Coverage Results" MODIFIED="1638239258668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00python面向对象/day1" />
+    <SUITE FILE_PATH="coverage/PyProject$Client__1_.coverage" NAME="Client (1) Coverage Results" MODIFIED="1638254008022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05解决粘包问题/简单版" />
+    <SUITE FILE_PATH="coverage/PyProject$Client.coverage" NAME="Client Coverage Results" MODIFIED="1638431624176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/多线程并发套接字" />
+    <SUITE FILE_PATH="coverage/PyProject$Client_2.coverage" NAME="Client_2 Coverage Results" MODIFIED="1591843283734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02多客户端套接字通讯" />
+    <SUITE FILE_PATH="coverage/PyProject$tornadohttpsmod.coverage" NAME="tornadohttpsmod Coverage Results" MODIFIED="1595211665326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Qt巡检机器人/Net_Comm" />
+    <SUITE FILE_PATH="coverage/PyProject$mysqlmod.coverage" NAME="mysqlmod Coverage Results" MODIFIED="1593655334575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Qt巡检机器人/Net_Comm" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____Qt_Net_Comm_app_py_.coverage" NAME="Flask (../Qt巡检机器人/Net_Comm/app.py) Coverage Results" MODIFIED="1595147991106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$study_event.coverage" NAME="study_event Coverage Results" MODIFIED="1590567175115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程/Event事件" />
+    <SUITE FILE_PATH="coverage/PyProject$01guard.coverage" NAME="01guard Coverage Results" MODIFIED="1638255278584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/守护进程" />
+    <SUITE FILE_PATH="coverage/PyProject$lockandjoin.coverage" NAME="lockandjoin Coverage Results" MODIFIED="1590482256574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/互斥锁与join的区别" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____Qt_Net_Comm_app_py___1_.coverage" NAME="Flask (../Qt巡检机器人/Net_Comm/app.py) (1) Coverage Results" MODIFIED="1595121058183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$study07.coverage" NAME="study07 Coverage Results" MODIFIED="1590048942568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$sudy11_Example_4.coverage" NAME="sudy11_Example_4 Coverage Results" MODIFIED="1590117697842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/PyProject$study_thread_queue.coverage" NAME="study_thread_queue Coverage Results" MODIFIED="1590570389081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程/Queue" />
+    <SUITE FILE_PATH="coverage/PyProject$studyqueue.coverage" NAME="studyqueue Coverage Results" MODIFIED="1590483885504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/队列" />
+    <SUITE FILE_PATH="coverage/PyProject$thread_method.coverage" NAME="thread_method Coverage Results" MODIFIED="1590551681956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____Qt_Net_Comm_test_py_.coverage" NAME="Flask (../Qt巡检机器人/Net_Comm/test.py) Coverage Results" MODIFIED="1592888438236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$thread_process_pool.coverage" NAME="thread_process_pool Coverage Results" MODIFIED="1590642544772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09进程池与线程池" />
+    <SUITE FILE_PATH="coverage/PyProject$02pidandppid.coverage" NAME="02pidandppid Coverage Results" MODIFIED="1590464437156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/开启子进程" />
+    <SUITE FILE_PATH="coverage/PyProject$broswer.coverage" NAME="broswer Coverage Results" MODIFIED="1638257283936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10浏览器模拟" />
+    <SUITE FILE_PATH="coverage/PyProject$Client1.coverage" NAME="Client1 Coverage Results" MODIFIED="1638343757083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07并发编程/多线程并发套接字" />
+    <SUITE FILE_PATH="coverage/PyProject$study09.coverage" NAME="study09 Coverage Results" MODIFIED="1590111895315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$Multiple_Inheritance.coverage" NAME="Multiple_Inheritance Coverage Results" MODIFIED="1590034501541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$study14.coverage" NAME="study14 Coverage Results" MODIFIED="1590124014104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/PyProject$study_thread.coverage" NAME="study_thread Coverage Results" MODIFIED="1590547541049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程" />
+    <SUITE FILE_PATH="coverage/PyProject$geven_module.coverage" NAME="geven_module Coverage Results" MODIFIED="1590652044097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11协程" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_redirect_py___1_.coverage" NAME="Flask (../pyflask/redirect.py) (1) Coverage Results" MODIFIED="1591321315276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$mutex_thread.coverage" NAME="mutex_thread Coverage Results" MODIFIED="1590553750400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08多线程" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_if_statement_py_.coverage" NAME="Flask (../pyflask/if_statement.py) Coverage Results" MODIFIED="1591331943075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_jinja2_filter_model_py_.coverage" NAME="Flask (../pyflask/jinja2模块/filter_model.py) Coverage Results" MODIFIED="1591342870819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$coroutine.coverage" NAME="coroutine Coverage Results" MODIFIED="1590650406373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11协程" />
+    <SUITE FILE_PATH="coverage/PyProject$study15.coverage" NAME="study15 Coverage Results" MODIFIED="1590124333816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/PyProject$Flask_____pyflask_redirect_py_.coverage" NAME="Flask (../pyflask/redirect.py) Coverage Results" MODIFIED="1591321657310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyProject$synchronous_asynchronous_call.coverage" NAME="synchronous_asynchronous_call Coverage Results" MODIFIED="1590647131918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09进程池与线程池" />
+    <SUITE FILE_PATH="coverage/PyProject$study03.coverage" NAME="study03 Coverage Results" MODIFIED="1590037563122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

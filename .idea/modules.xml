@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Qt巡检机器人/Net_Comm/.idea/Net_Comm.iml" filepath="$PROJECT_DIR$/../Qt巡检机器人/Net_Comm/.idea/Net_Comm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyProject.iml" filepath="$PROJECT_DIR$/.idea/PyProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pyflask/.idea/pyflask.iml" filepath="$PROJECT_DIR$/../pyflask/.idea/pyflask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Qt巡检机器人/接口示例/.idea/接口示例.iml" filepath="$PROJECT_DIR$/../Qt巡检机器人/接口示例/.idea/接口示例.iml" />
+    </modules>
+  </component>
+</project>
